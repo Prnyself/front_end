@@ -1,14 +1,23 @@
-<script src="https://unpkg.com/vue"></script>
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>vue.js gitpage</title>
+  </head>
+  <body>
+    <div id="app">
+      <p>{{ message }}</p>
+    </div>
+  </body>
 
-<div id="app">
-  <p>{{ message }}</p>
-</div>
+  <script src="https://unpkg.com/vue"></script>
 
-<script>
-new Vue({
-  el: '#app',
-  data: {
-    message: 'Hello Vue.js!'
-  }
-})
-</script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        message: 'Hello Vue.js!'
+      }
+    })
+  </script>
+</html>
